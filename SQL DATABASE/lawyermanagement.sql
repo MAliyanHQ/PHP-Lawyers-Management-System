@@ -38,7 +38,7 @@ CREATE TABLE `administrator` (
 --
 
 INSERT INTO `administrator` (`administrator_id`, `city`, `address`) VALUES
-('Admin', 'Karachi', 'D-18 Block 4');
+('Admin', 'Karachi', 'D-19 jkdki');
 
 -- --------------------------------------------------------
 
@@ -115,11 +115,11 @@ CREATE TABLE `lawyer` (
 --
 
 INSERT INTO `lawyer` (`lawyer_id`, `contact_Number`, `university_College`, `degree`, `passing_year`, `full_address`, `city`, `zip_code`, `practise_Length`, `case_handle`, `speciality`, `image`) VALUES
-('Lawyer653bfa85ea652', '03433208987', 'IQRA', 'LLB', '2013', 'HOUSE# D-18 BLOCK 4 FEDERAL B AREA KARACHI,PAKISTAN', 'Lahore', '75950', '11-15 years', 'Criminal matter,Civil matter,Writ Jurisdiction,Company law,Contract law,Commercial matter,Construction law,', 'IT Law', '20231027195933_Aliyan.jpg'),
-('Lawyer653bfaeb0ba24', '03433208987', 'Ziauddin', 'LLM', '2016', 'HOUSE# D-18 BLOCK 4 FEDERAL B AREA KARACHI,PAKISTAN', 'Karachi', '84844', 'Most Senior', 'Criminal matter,Civil matter,Writ Jurisdiction,Company law,Contract law,Commercial matter,Construction law,Information Technology,Family Law,Religious Matter,Investment Matter,Labour Law,Property Law,Taxation Matter,Others,', 'Criminal Law', '20231027200115_25786134576ce0344893b33a051160b1.jpg'),
-('Lawyer653cfe168b5eb', '03432838383', 'Zabist', 'LLB', '2000', 'D-55 block b Shahrah e Faisal', 'Islamabad', '24577', '1-5 years', 'Civil matter,Contract law,Construction law,Information Technology,Family Law,Investment Matter,Property Law,', 'Religious Law', '20231028142702_2.jpg'),
-('Lawyer653cfe756930c', '03349949444', 'IQRA', 'LLB', '2005', 'HOUSE# f-83 BLOCK 10  KARACHI,PAKISTAN', 'Karachi', '75933', '16-20 years', 'Criminal matter,Civil matter,Writ Jurisdiction,Company law,Contract law,Commercial matter,Construction law,Information Technology,Family Law,Religious Matter,Investment Matter,Labour Law,Property Law,Taxation Matter,Others,', 'Investment Law', '20231028142837_1.jpg'),
-('Lawyer653cfeda53bac', '03434484844', 'Ziauddin', 'LLM', '2014', 'HOUSE# u-1 BLOCK 1 MULTAN,PAKISTAN', ' ', '34343', 'Most Senior', 'Criminal matter,Civil matter,Writ Jurisdiction,Company law,Contract law,Commercial matter,Construction law,Information Technology,Family Law,Religious Matter,Investment Matter,Labour Law,Property Law,Taxation Matter,Others,', 'Family Law', '20231028143018_3.jpg');
+('Lawyer653bfa85ea652', '03433898700', 'IQRA', 'LLB', '2013', 'HOUSE#  KARACHI,PAKISTAN', 'Lahore', '75950', '11-15 years', 'Criminal matter,Civil matter,Writ Jurisdiction,Company law,Contract law,Commercial matter,Construction law,', 'IT Law', '20231027195933_Aliyan.jpg'),
+('Lawyer653bfaeb0ba24', '03433298700', 'Ziauddin', 'LLM', '2016', 'HOUSE#  AREA KARACHI,PAKISTAN', 'Karachi', '84844', 'Most Senior', 'Criminal matter,Civil matter,Writ Jurisdiction,Company law,Contract law,Commercial matter,Construction law,Information Technology,Family Law,Religious Matter,Investment Matter,Labour Law,Property Law,Taxation Matter,Others,', 'Criminal Law', '20231027200115_25786134576ce0344893b33a051160b1.jpg'),
+('Lawyer653cfe168b5eb', '03432838300', 'Zabist', 'LLB', '2000', 'D-55 block b Shahrah e Faisal', 'Islamabad', '24577', '1-5 years', 'Civil matter,Contract law,Construction law,Information Technology,Family Law,Investment Matter,Property Law,', 'Religious Law', '20231028142702_2.jpg'),
+('Lawyer653cfe756930c', '03349944400', 'IQRA', 'LLB', '2005', 'HOUSE# f-83 BLOCK 10  KARACHI,PAKISTAN', 'Karachi', '75933', '16-20 years', 'Criminal matter,Civil matter,Writ Jurisdiction,Company law,Contract law,Commercial matter,Construction law,Information Technology,Family Law,Religious Matter,Investment Matter,Labour Law,Property Law,Taxation Matter,Others,', 'Investment Law', '20231028142837_1.jpg'),
+('Lawyer653cfeda53bac', '03434484400', 'Ziauddin', 'LLM', '2014', 'HOUSE# u-1 BLOCK 1 MULTAN,PAKISTAN', ' ', '34343', 'Most Senior', 'Criminal matter,Civil matter,Writ Jurisdiction,Company law,Contract law,Commercial matter,Construction law,Information Technology,Family Law,Religious Matter,Investment Matter,Labour Law,Property Law,Taxation Matter,Others,', 'Family Law', '20231028143018_3.jpg');
 
 -- --------------------------------------------------------
 
@@ -146,8 +146,8 @@ INSERT INTO `user` (`u_id`, `first_Name`, `last_Name`, `email`, `password`, `sta
 ('Client653bfb87d2f36', 'Hasan', 'Ali', 'hasanali@gmail.com ', 'hasanali', 'Active', 'User'),
 ('Client653d02654e94e', 'Shahid', 'Jamil', 'shahid@gmail.com ', 'shahid ', 'Active', 'User'),
 ('Client653d02aa352b5', 'Fouz', 'Azeem', 'fouz@gmail.com ', 'fouz ', 'Active', 'User'),
-('Lawyer653bfa85ea652', 'Aliyan', 'Qureshi', 'aliyanqureshi.002@gmail.com ', 'aliyan ', 'Active', 'Lawyer'),
-('Lawyer653bfaeb0ba24', 'Muhib', 'Qureshi', 'aliyan0yt0@gmail.com ', 'muhib ', 'Active', 'Lawyer'),
+('Lawyer653bfa85ea652', 'Aln', 'Quhi', 'aliyan@gmail.com ', 'ali4ren ', 'Active', 'Lawyer'),
+('Lawyer653bfaeb0ba24', 'Mub', 'Qshi', 'aliya@gmail.com ', 'm899b ', 'Active', 'Lawyer'),
 ('Lawyer653cfe168b5eb', 'Basit', 'Khan', 'basit@gmail.com ', 'basit ', 'Active', 'Lawyer'),
 ('Lawyer653cfe756930c', 'Ahmed', 'Maklai', 'ahmed@gmail.com ', 'ahmed ', 'Active', 'Lawyer'),
 ('Lawyer653cfeda53bac', 'Aqsa', 'Jamil', 'aqsa@gmail.com ', 'aqsa123', 'Active', 'Lawyer');
